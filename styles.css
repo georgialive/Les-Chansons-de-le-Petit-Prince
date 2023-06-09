@@ -141,6 +141,10 @@ section:nth-child(even){
     margin-bottom: 20px;
 }
 
+.item-wrapper {
+    max-width: 800px;
+}
+
 /* NAVAGATION BAR */
 
 nav {
@@ -343,6 +347,8 @@ SONGS SECTION
 }
 
 .songs {
+    width: 100%;
+    max-width: 800px;
     margin-top: 60px;
     border-radius: 12px;
     overflow: hidden;
